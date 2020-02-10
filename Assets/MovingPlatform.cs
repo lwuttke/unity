@@ -1,11 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
 
-//Note: MonoBehaviour is the base class from which every Unity script derives.
-//The class name must be the same as the filename!
-public class SimpleMovement : MonoBehaviour
+public class MovingPlatform : MonoBehaviour
 {
     float triggerTime = 2.0f;
 
@@ -25,7 +22,14 @@ public class SimpleMovement : MonoBehaviour
         // Multiplied by the time between 2 frame to ensure our game is framerate independent
         // For exmple, the object moves 0.5 unit/second along the negative x axis
         // position.x = position.x - speed * Time.deltaTime 
-        
+        if ((int)Time.time % triggerTime == 0)
+        {
+            direction = Vector2.left;
+        }
+        else
+        {
+            direction = Vector2.right;
+        }
         position = position + (direction * speed * Time.deltaTime);
         transform.position = position;
 
@@ -37,6 +41,3 @@ public class SimpleMovement : MonoBehaviour
 
     }
 }
-
-
-
