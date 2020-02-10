@@ -415,8 +415,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2016d332b1e6345fead47b4e5b9df095, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.5
-  direction: {x: -1, y: 0}
 --- !u!114 &105825287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -559,7 +557,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: '0:00
+
+'
 --- !u!222 &265523564
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -837,8 +837,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2016d332b1e6345fead47b4e5b9df095, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  direction: {x: -1, y: 0}
 --- !u!4 &491031531
 Transform:
   m_ObjectHideFlags: 0
@@ -1266,8 +1264,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2016d332b1e6345fead47b4e5b9df095, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
-  direction: {x: -1, y: 0}
 --- !u!114 &798040185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1899,7 +1895,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a54c558dd2714caa8bbffe9049d242d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
 --- !u!1001 &1394765395
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2064,8 +2059,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2016d332b1e6345fead47b4e5b9df095, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  direction: {x: -1, y: 0}
 --- !u!114 &1440880418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2203,7 +2196,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef0698a1e9a5644609f2ac64511fddcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
 --- !u!50 &1652062531
 Rigidbody2D:
   serializedVersion: 4
